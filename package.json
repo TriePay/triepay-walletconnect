@@ -1,0 +1,26 @@
+{
+  "name": "triepay-walletconnect",
+  "version": "1.0.0",
+  "description": "WalletConnect client & qrcode-modal",
+  "main": "dist/umd/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "rm -rf dist && npx webpack --mode=production"
+  },
+  "repository": "https://github.com/TriePay/triepay-walletconnect.git",
+  "keywords": [
+    "walletconnect",
+    "rollup"
+  ],
+  "author": "TriePay",
+  "license": "MIT",
+  "devDependencies": {
+    "@purtuga/esm-webpack-plugin": "^1.5.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@walletconnect/client": "^1.7.8",
+    "@walletconnect/qrcode-modal": "^1.7.8"
+  }
+}
